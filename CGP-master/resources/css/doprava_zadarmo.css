@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*background-color: rgb(14, 15, 18);*/
+}
+
+body{
+    background-color: rgb(14, 15, 18);
+    /*background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url(../images/pozadie.jpg);
+    background-position: 0px 455px;
+    background-size: cover;*/
+}
+
+.kontajner {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+    box-sizing: border-box;
+   
+}
+
+.navigacny_panel{
+    height: 12%;
+    display: flex; /*umžňuje nastaviť rozloženie prvkov na stránke*/
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(14, 15, 18);
+    position: sticky;
+    top: 0px;
+
+    
+}
+
+.logo_menu{
+    width: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: transform 0.3s;
+}
+
+.logo{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 50px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    color: white;
+}
+
+.nazov{
+    margin-left: 20px;
+    margin-top: auto;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: transform 0.3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+
+nav ul li{ /*určím presné li ktoré je v ul, a to mi to upraví*/
+    list-style: none;
+    display: inline-block;/*rozhodí prvky vedľa seba*/
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.zoznam{
+    transition: transform 0.3s;
+}
+
+.zoznam:hover{
+    transform: translateY(-3px);
+}
+
+
+
+
+
+
+/*table{
+    color: black;
+    margin: 20px;
+    border: none;
+    margin-left: 450px;
+    margin-right: 20px;
+    width: 100%;
+    
+}*/
+
+.doprava_popis{
+    color: white;
+    float: left;
+    width: 72%;
+    margin-left: 215px;
+    margin-top: 50px;
+}
+
+.doprava_popis_nadpis{
+    color: rgb(213, 60, 100);
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.my{
+    font-weight: bold;  
+}
+
+.doprava_popis_text{
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.doprava_popis_ul{
+    line-height: 30px;
+}
+    
+
+.doplnkove_sluzby{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: rgb(213, 60, 100);
+
+}
+
+.cennik_sluzieb_nadpis{
+    color: white;
+    float: left;
+    margin-bottom: 7px;
+    text-align: center;
+    margin-left: 215px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+th, td{
+    background-color:whitesmoke;
+    border-radius: 1px;
+    padding: 7px;
+    
+}
+
+th{
+    color: rgb(255, 95, 100);
+    font-weight: bolder;
+    
+}
+
+td{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+table{
+    float: right;
+    margin-right: 13%;
+    margin-top: 0px;
+    width: 73%;
+    
+    
+}
+
+.text_sluzby{
+    color: whitesmoke;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.sluzby{
+    background-color: none;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    width: 75%;
+    float: left;
+
+}
+
+
+
+td:hover{
+    opacity:0.9;
+    
+}
+
+.copyright{
+    color: whitesmoke;
+    text-align: center;
+    margin: 10px;
+    margin-top: 820px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    text-transform:uppercase;
+    
+}
