@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*background-color: rgb(14, 15, 18);*/
+}
+
+body{
+   background-color: rgb(14, 15, 18);
+   background-color: none;
+    
+}
+
+.kontajner {
+    width: 100%;
+    box-sizing: border-box;
+    
+    
+}
+
+.navigacny_panel{
+    height: 12%;
+    display: flex; /*umžňuje nastaviť rozloženie prvkov na stránke*/
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(14, 15, 18);
+    /*background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),url(../images/pozadie.jpg);
+    background-position: 0px 455px;
+    background-size: cover;*/   
+    position: sticky;
+    top: 0px;
+    
+}
+
+.logo_menu{
+    width: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: transform 0.3s;
+}
+
+.logo{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 50px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    color: white;
+}
+
+.nazov{
+    margin-left: 20px;
+    margin-top: auto;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: transform 0.3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+
+nav ul li{ /*určím presné li ktoré je v ul, a to mi to upraví*/
+    list-style: none;
+    display: inline-block;/*rozhodí prvky vedľa seba*/
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.zoznam{
+    transition: transform 0.3s;
+}
+
+.mobily_nadpis{
+    color: rgb(250, 167, 101);
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tablety_nadpis{
+    color: rgb(213, 60, 100);
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.iphone_13{
+    margin-top: 10px;
+    margin-bottom: 200px;
+    color: white;
+    
+}
+
+.iphone_13_obrazok{
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+   transition: 0.2s;
+}
+
+.texty_iphone_13{
+    float: left;
+    margin-left: 21px;
+    margin-bottom: 40px;
+    margin-right: 21px;
+}
+
+.iphone_13_nadpis{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    color: rgb(250, 167, 101);
+    transition: 0.2s;
+}
+
+.iphone_13_popis{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.parametre_aj_nadpis{
+    float: left;
+    margin-left: 20px;
+}
+
+.parametre{
+    margin-left: 15px;
+}
+
+.nadpis_parametrov{
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+.iphone_cena{
+    float: right;
+    margin-right: 40px;
+    margin-top: -125px;
+    margin-bottom: 0px;
+    text-align: right;
+    line-height: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.cena_suma{
+    font-size: 30px;
+    color: rgb(213, 60, 100);
+    font-weight: bold;
+}
+
+
+.button_pridat_kosik{
+    float: right;
+    margin-right: 40px;
+    margin-top: -60px;
+    width: 400px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 2px;
+    transition: 0.2s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.zoznam:hover{
+    transform: translateY(-3px);
+}
+
+
+
+.button_pridat_kosik:hover{
+    color: rgb(250, 167, 101);
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 2px;
+}
+
+.iphone_13_nadpis:hover{
+    text-shadow: 2px 2px 5px rgb(168, 165, 165);
+}
+
+.copyright{
+    color: whitesmoke;
+    text-align: center;
+    margin: 10px;
+    font-size: 10px;
+    text-transform:uppercase;
+    margin-top: 350px;
+}
